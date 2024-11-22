@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-22 15:27:03.049600",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "batch_id",
+  "master_id",
+  "item",
+  "weight",
+  "user",
+  "time",
+  "collections"
+ ],
+ "fields": [
+  {
+   "fieldname": "batch_id",
+   "fieldtype": "Data",
+   "label": "batch_id"
+  },
+  {
+   "fieldname": "master_id",
+   "fieldtype": "Data",
+   "label": "master_id"
+  },
+  {
+   "fieldname": "item",
+   "fieldtype": "Data",
+   "label": "item"
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Float",
+   "label": "weight"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Data",
+   "label": "user"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Datetime",
+   "label": "time"
+  },
+  {
+   "fieldname": "collections",
+   "fieldtype": "Float",
+   "label": "collections"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-11-22 15:58:46.107120",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Batch Detail",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

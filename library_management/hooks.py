@@ -5,6 +5,14 @@ app_description = "Library Management System"
 app_email = "odolpepe618@gmail.com"
 app_license = "mit"
 
+scheduler_events = {
+    "hourly": [
+        "library_management.library_management.doctype.batch_detail.batch_detail.fetch_and_create_batch_details"
+    ]
+}
+
+
+
 # Apps
 # ------------------
 
